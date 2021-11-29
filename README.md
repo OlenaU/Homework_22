@@ -1,0 +1,2 @@
+# HomeWork22
+ functions
