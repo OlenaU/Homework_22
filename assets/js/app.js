@@ -1,4 +1,4 @@
-// Homework_22   -test button
+// Homework_22   
 
 function BMI() {
 
@@ -13,6 +13,7 @@ function BMI() {
     if(height > 2.8) 
     { 
         BMI = Math.round ((mass /((height/100) ** 2)) * 10) / 10 ;
+        document.style.color = "red"
     }
     
     else
@@ -59,4 +60,5 @@ function BMI() {
     
     }
     
+    $('form').get(0).reset()
     
