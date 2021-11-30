@@ -60,5 +60,9 @@ function BMI() {
     
     }
     
+
+    /*
     $('form').get(0).reset()
+
+    $(':input').val(''); */
     
